@@ -28,7 +28,7 @@ class Program
     {
         
         MySqlConnection conn;
-        string strConnection = "server=localhost;uid=root;pwd=;database=db_trade;";
+        string strConnection = "server=localhost;uid=root;pwd=secret;database=db_trade;";
 
         try
         {
