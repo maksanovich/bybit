@@ -31,7 +31,8 @@ class Program
 {
     static async Task Main(string[] args)
     {
-
+        
+        Console.WriteLine("Starting Bybit Bot...");
         MySqlConnection conn;
         string strConnection = "server=localhost;uid=root;pwd=secret;database=db_trade;";
 
